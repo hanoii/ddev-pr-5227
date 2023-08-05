@@ -12,6 +12,7 @@ database:
 use_dns_when_possible: true
 composer_version: "2"
 web_environment: []
+webimage_extra_packages: [kitty-terminfo]
 nodejs_version: "18"
 hooks:
   pre-start:
